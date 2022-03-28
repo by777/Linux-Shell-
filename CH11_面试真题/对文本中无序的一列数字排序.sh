@@ -1,0 +1,1 @@
+sort -n test.txt|awk '{a+=$0;print $0}END{print "SUM="a}'
